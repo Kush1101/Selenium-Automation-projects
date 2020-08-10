@@ -24,7 +24,7 @@ target.click()
 arg2 = '//*[@id="identifierId"]'
 #username = driver.find_element_by_class_name('')
 username = driver.find_element_by_xpath(arg2)
-email = 'kushagra.nptel@gmail.com'
+email = 'your email'
 username.send_keys(email+Keys.ENTER)
 #driver.find_element_by_class_name('VfPpkd-RLmnJb').click()
 
@@ -39,7 +39,7 @@ password = driver.find_element_by_xpath(x_arg2)
 #password.click()
 #wait2.until(EC.elementToBeClickable(password))
 #password.click()
-pwd = '2_Akrs@26174'
+pwd = 'Hidden'
 password.send_keys(pwd+Keys.ENTER)
 print("Successfully logged in!")
  
