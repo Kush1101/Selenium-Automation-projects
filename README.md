@@ -1,4 +1,6 @@
 # Whatsapp-Automation-using-Selenium
-Using selenium to automate sending messages from the Browser.
+Using selenium to automate simple tasks.
+Will keep adding more
+
 
 # Work in Progress
