@@ -27,13 +27,13 @@ google.click()
 #Username on google login
 username_xpath = '//*[@id="identifierId"]'
 username = driver.find_element_by_xpath(username_xpath)
-email = 'kushagra.nptel@gmail.com'
+email = 'youremail@gmail.com'
 username.send_keys(email)
 #next button
 nextButton = driver.find_elements_by_xpath('//*[@id ="identifierNext"]') 
 nextButton[0].click() 
 
-pwd = '2_Akrs@26174'
+pwd = 'secret'
 password_xpath = '//*[@id ="password"]/div[1]/div / div[1]/input'
 passWordBox = wait.until(EC.element_to_be_clickable((By.XPATH,password_xpath)))
 passWordBox.send_keys(pwd)
