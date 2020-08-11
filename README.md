@@ -1,4 +1,4 @@
-# Whatsapp-Automation-using-Selenium
+# Automation-using-Selenium
 Using selenium to automate simple tasks.
 Will keep adding more<br>
 
