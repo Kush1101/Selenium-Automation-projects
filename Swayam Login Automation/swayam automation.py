@@ -48,9 +48,9 @@ passWordBox.send_keys(pwd)
 #next button
 nextButton = driver.find_elements_by_xpath('//*[@id ="passwordNext"]') 
 nextButton[0].click() 
-#BINGO!
 
 print("\nSuccessfully logged in!")
+
 #wait until loading finishes
 wait2 = WebDriverWait(driver,600)
 
@@ -64,6 +64,6 @@ mycourse_path = '//*[@id="bs-example-navbar-collapse-1"]/ul/li[3]/ul/li[2]/a'
 mycourse = wait2.until(EC.presence_of_element_located((By.XPATH,mycourse_path)))
 mycourse.click()
 
-#Did it!
+
 print("Your courses tab is now open! Thank You!!")
 print("Time taken for automation is ",time.time()-start)
