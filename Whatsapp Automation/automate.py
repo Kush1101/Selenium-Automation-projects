@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  9 15:50:03 2020
-
-@author: DeLL
-"""
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -23,3 +17,4 @@ input_box = driver.find_element_by_class_name('_1Plpp')
 for i in range(1):
     input_box.send_keys(string + Keys.ENTER)
 print("Messages Sent!!")
+print("Done")
