@@ -18,3 +18,4 @@ for i in range(1):
     input_box.send_keys(string + Keys.ENTER)
 print("Messages Sent!!")
 print("Done")
+driver.close(2000)
